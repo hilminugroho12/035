@@ -42,9 +42,7 @@
 }
 */
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -107,17 +105,12 @@ address {
   line-height: inherit;
 }
 
-ol,
-ul,
-dl {
+ol, ul, dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
+ol ol, ul ul, ol ul, ul ol {
   margin-bottom: 0;
 }
 
@@ -10152,7 +10145,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-image: url("../img/bg_header.svg");
+  background-image: url("../images/bg_header.svg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -10457,7 +10450,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-image: url("../img/bg_footer.svg");
+  background-image: url("../images/bg_footer.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
